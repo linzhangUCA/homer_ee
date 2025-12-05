@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Pololu_DRV8874_Carrier")(type "KiCad")(uri "${KIPRJMOD}/Pololu_DRV8874_Carrier.kicad_sym")(options "")(descr ""))
+)
