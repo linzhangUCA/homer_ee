@@ -2270,6 +2270,322 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Pololu_DRV8874_Carrier:DRV8874_Carrier"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DRV8874_Carrier_0_1"
+				(rectangle
+					(start -11.43 8.89)
+					(end 11.43 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DRV8874_Carrier_1_1"
+				(pin power_out line
+					(at -13.97 7.62 0)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 2.54 0)
+					(length 2.54)
+					(name "EN/IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 0 0)
+					(length 2.54)
+					(name "PH/IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -2.54 0)
+					(length 2.54)
+					(name "PMODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "~{SLEEP}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -7.62 0)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 11.43 270)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 13.97 2.54 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -2.54 180)
+					(length 2.54)
+					(name "IMODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "~{FAULT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -7.62 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -3901,6 +4217,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Pololu_DRV8874_Carrier:DRV8874_Carrier")
+		(at 151.13 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23185d24-f0e1-44d3-8663-e04fe7641db4")
+		(property "Reference" "U2"
+			(at 153.2733 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 153.2733 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "9ae79651-187a-4c66-b931-3aafecaf8c45")
+		)
+		(pin "9"
+			(uuid "832f12d4-b088-4f53-8d3f-b52e9060cd46")
+		)
+		(pin "8"
+			(uuid "831039f8-0958-4140-acdc-2797ad5cf43c")
+		)
+		(pin "13"
+			(uuid "e7ee5e91-679f-4aa7-bffb-c5a06fc65d0a")
+		)
+		(pin "3"
+			(uuid "5f9e3219-b7df-4cb3-8b23-4eadfbd1019b")
+		)
+		(pin "4"
+			(uuid "397a8efb-ef95-4c76-984a-2042ce2e66f6")
+		)
+		(pin "1"
+			(uuid "ba57c239-acba-4649-b518-7acc2c80041d")
+		)
+		(pin "12"
+			(uuid "a9053bd9-3ce0-4065-934c-8229bca05273")
+		)
+		(pin "5"
+			(uuid "de9ef959-5fee-4727-93f3-926ed9486233")
+		)
+		(pin "14"
+			(uuid "2d4232f2-3f9c-45a9-b934-9e86de1329e5")
+		)
+		(pin "6"
+			(uuid "cd3bc7c2-7fa0-42f2-ae34-7d9010d3c33c")
+		)
+		(pin "10"
+			(uuid "f6f7d081-35bf-478a-a4cd-c690ccbb5f97")
+		)
+		(pin "2"
+			(uuid "8cdb94ee-f189-46b0-a3c9-436eb8996e76")
+		)
+		(pin "7"
+			(uuid "6a5e04cb-4480-4c6e-b844-aeedb09e5912")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
 		(at 223.52 72.39 0)
 		(unit 1)
@@ -4079,6 +4501,112 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pololu_DRV8874_Carrier:DRV8874_Carrier")
+		(at 102.87 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2e9e2e0-2992-4537-b372-5474bb92de39")
+		(property "Reference" "U1"
+			(at 105.0133 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 105.0133 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "5ce9b722-da87-4b55-b78f-f92822cdaeee")
+		)
+		(pin "8"
+			(uuid "7bcf447c-08d8-4385-9b65-f0075ca160ef")
+		)
+		(pin "14"
+			(uuid "dbb6aa27-da36-4a73-b02b-97a9ee9ddcee")
+		)
+		(pin "11"
+			(uuid "ff74b269-c256-445c-8841-5b5577eb6d3f")
+		)
+		(pin "2"
+			(uuid "8d6178ee-b571-4f08-ba73-1995152e07ef")
+		)
+		(pin "12"
+			(uuid "af8b7416-d702-469b-80da-ee9b6e9c8ea4")
+		)
+		(pin "7"
+			(uuid "772c0035-e48c-4452-ba16-217f5bdc682b")
+		)
+		(pin "6"
+			(uuid "ee7cd957-6c4d-4dd4-9622-08610b05063e")
+		)
+		(pin "13"
+			(uuid "430a8ba8-2ea9-4e0e-8c99-1cba9fc108b9")
+		)
+		(pin "1"
+			(uuid "8578b314-8668-417a-8c70-812c3382392c")
+		)
+		(pin "4"
+			(uuid "8ddc6f17-0791-46f9-800d-ce3540eb2696")
+		)
+		(pin "5"
+			(uuid "11d9de9e-c3d8-49ce-b84d-5bf320e6f0b4")
+		)
+		(pin "10"
+			(uuid "91a87471-83ef-40f3-816c-94995a444149")
+		)
+		(pin "3"
+			(uuid "12e5f3fc-c513-4373-9538-b3fec55cd379")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U1")
 					(unit 1)
 				)
 			)

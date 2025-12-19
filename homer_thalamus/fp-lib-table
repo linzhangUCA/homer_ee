@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DRV8874_Carrier")(type "KiCad")(uri "${KIPRJMOD}/DRV8874_Carrier.pretty")(options "")(descr ""))
+)
