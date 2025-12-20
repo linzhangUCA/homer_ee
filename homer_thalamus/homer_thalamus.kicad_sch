@@ -2716,6 +2716,510 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GY-521:GY-521"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ACC"
+				(at -9.652 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "GY-521"
+				(at 4.572 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "GODREAM FORDREAM CO., LIMITED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Triple Axis Accelerometer Gyro Breakout"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "GY-521"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "GY-521_0_0"
+				(polyline
+					(pts
+						(xy -11.43 -9.43) (xy -11.43 9.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -9.43 11.43) (xy 4.35 11.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -11.43 9.43)
+					(mid -10.8442 10.8442)
+					(end -9.43 11.43)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -9.43 -11.43)
+					(mid -10.8442 -10.8442)
+					(end -11.43 -9.43)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -3.175) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -3.175) (xy -1.27 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -3.175 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.35 11.43)
+					(mid 5.7642 10.8442)
+					(end 6.35 9.43)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 -9.43)
+					(mid 5.7642 -10.8442)
+					(end 4.35 -11.43)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.35 -11.43) (xy -9.43 -11.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 9.43) (xy 6.35 -9.43)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "MPU"
+					(at 0 -10.16 0)
+					(effects
+						(font
+							(size 2 2)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin power_in line
+					(at -16.51 8.89 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 3.81 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 1.27 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -1.27 0)
+					(length 5.08)
+					(name "XDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "XDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -3.81 0)
+					(length 5.08)
+					(name "XCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "XCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -6.35 0)
+					(length 5.08)
+					(name "AD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -8.89 0)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "INT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HC-SR04:HC-SR04"
 			(pin_names
 				(offset 1.016)
@@ -5016,8 +5520,16 @@
 		(uuid "0410cbe2-4536-4169-8930-49dbb62dc42d")
 	)
 	(no_connect
+		(at 58.42 111.76)
+		(uuid "0dc183ff-539f-4abb-9869-45f424e66bd3")
+	)
+	(no_connect
 		(at 137.16 73.66)
 		(uuid "12309bf5-194a-446e-9bd8-ab8752dd609a")
+	)
+	(no_connect
+		(at 58.42 109.22)
+		(uuid "262bd925-d1cf-467b-bb9c-9e1da545db4f")
 	)
 	(no_connect
 		(at 30.48 153.67)
@@ -5030,6 +5542,10 @@
 	(no_connect
 		(at 58.42 168.91)
 		(uuid "3d82f079-70be-4df2-aee8-aa3b8c5bd2b2")
+	)
+	(no_connect
+		(at 58.42 104.14)
+		(uuid "43550534-a106-4556-9458-301935def995")
 	)
 	(no_connect
 		(at 115.57 144.78)
@@ -5046,6 +5562,10 @@
 	(no_connect
 		(at 58.42 166.37)
 		(uuid "b7accabc-221e-4cbb-967e-9800c5f7cc99")
+	)
+	(no_connect
+		(at 58.42 106.68)
+		(uuid "c8caeef2-d032-41a6-9c20-463cba139cb0")
 	)
 	(no_connect
 		(at 58.42 163.83)
@@ -5098,6 +5618,16 @@
 			(type default)
 		)
 		(uuid "03b265ac-7741-4d43-bb02-d8a99c0b8330")
+	)
+	(wire
+		(pts
+			(xy 182.88 93.98) (xy 194.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057b1017-2735-48b6-b054-33737e984057")
 	)
 	(wire
 		(pts
@@ -5201,6 +5731,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 99.06) (xy 137.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e931f94-a11f-4f04-878d-6d686278b312")
+	)
+	(wire
+		(pts
 			(xy 93.98 179.07) (xy 96.52 179.07)
 		)
 		(stroke
@@ -5218,6 +5758,16 @@
 			(type default)
 		)
 		(uuid "20612b84-0788-4ade-a655-75e6f543ae13")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2156a3a6-e351-4b57-8698-2154b367cd95")
 	)
 	(wire
 		(pts
@@ -5258,6 +5808,16 @@
 			(type default)
 		)
 		(uuid "253b178b-0899-4db0-86d7-b297933dd734")
+	)
+	(wire
+		(pts
+			(xy 124.46 83.82) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26137d64-352c-4d1b-ade9-d9b409d2d089")
 	)
 	(wire
 		(pts
@@ -5331,6 +5891,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 96.52) (xy 49.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34026027-bbc1-413c-838c-c2ea727867f4")
+	)
+	(wire
+		(pts
 			(xy 63.5 53.34) (xy 90.17 53.34)
 		)
 		(stroke
@@ -5371,6 +5941,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 96.52) (xy 49.53 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395b58b9-c301-431d-8b07-54439b4d46e0")
+	)
+	(wire
+		(pts
 			(xy 21.59 60.96) (xy 50.8 60.96)
 		)
 		(stroke
@@ -5401,6 +5981,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408d0f1c-d9b4-4a8c-b743-0539cc9ffa95")
+	)
+	(wire
+		(pts
 			(xy 132.08 173.99) (xy 146.05 173.99)
 		)
 		(stroke
@@ -5418,6 +6008,16 @@
 			(type default)
 		)
 		(uuid "411bfe84-4d62-4166-aeaa-5f3561369355")
+	)
+	(wire
+		(pts
+			(xy 36.83 99.06) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41201bb6-f84d-4db2-8cd5-eb2e8c04b932")
 	)
 	(wire
 		(pts
@@ -5611,6 +6211,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 81.28) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae96c15-0ff9-45ac-ad3d-5a1a0541771c")
+	)
+	(wire
+		(pts
 			(xy 21.59 53.34) (xy 50.8 53.34)
 		)
 		(stroke
@@ -5721,6 +6331,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c38dc35-98c2-4b08-9b50-03c527fb91a9")
+	)
+	(wire
+		(pts
 			(xy 222.25 80.01) (xy 214.63 80.01)
 		)
 		(stroke
@@ -5738,6 +6358,16 @@
 			(type solid)
 		)
 		(uuid "7d1a0af8-a3d8-4dbb-9873-21a280e175b7")
+	)
+	(wire
+		(pts
+			(xy 124.46 78.74) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8470b4-e91d-4bc1-9fa8-82c8a7c80b35")
 	)
 	(wire
 		(pts
@@ -5941,6 +6571,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 101.6) (xy 58.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b48750c-482f-409a-98c3-fe5c332a9aad")
+	)
+	(wire
+		(pts
 			(xy 228.6 39.37) (xy 228.6 36.83)
 		)
 		(stroke
@@ -6031,6 +6671,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5dfba7-3793-4a43-a356-290182457a72")
+	)
+	(wire
+		(pts
 			(xy 27.94 124.46) (xy 33.02 124.46)
 		)
 		(stroke
@@ -6038,6 +6688,16 @@
 			(type default)
 		)
 		(uuid "af7e6105-5892-47d9-acc3-8ddfee65a596")
+	)
+	(wire
+		(pts
+			(xy 53.34 93.98) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affaa8dd-f1f7-4ef6-a80d-db4f5d93fa68")
 	)
 	(wire
 		(pts
@@ -6151,6 +6811,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 101.6) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9f1221-1ae3-40fc-af4e-e4b5b643447d")
+	)
+	(wire
+		(pts
 			(xy 134.62 167.64) (xy 134.62 179.07)
 		)
 		(stroke
@@ -6178,6 +6848,16 @@
 			(type default)
 		)
 		(uuid "bf2dd359-60e5-45d6-9bcb-eed4a0a278fc")
+	)
+	(wire
+		(pts
+			(xy 124.46 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf820d13-ae5e-4a13-9c23-ce68977858bc")
 	)
 	(wire
 		(pts
@@ -6381,16 +7061,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 101.6) (xy 137.16 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe08f6e-88fc-44b3-84a2-3a95feb2dde8")
-	)
-	(wire
-		(pts
 			(xy 237.49 125.73) (xy 237.49 138.43)
 		)
 		(stroke
@@ -6428,6 +7098,16 @@
 			(type solid)
 		)
 		(uuid "e93ad2ad-5587-4125-b93d-270df22eadfa")
+	)
+	(wire
+		(pts
+			(xy 53.34 91.44) (xy 53.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2668b9-ae09-492f-90eb-af9a8304eb97")
 	)
 	(wire
 		(pts
@@ -6619,16 +7299,6 @@
 		)
 		(uuid "2231ac3c-a564-441f-9fb0-c85913532d49")
 	)
-	(label "TRIG"
-		(at 124.46 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24bc3615-249c-4ff4-a6ee-687c9312941f")
-	)
 	(label "ID_SCL"
 		(at 90.17 58.42 180)
 		(effects
@@ -6638,6 +7308,26 @@
 			(justify right bottom)
 		)
 		(uuid "28cc0d46-7a8d-4c3b-8c53-d5a776b1d5a9")
+	)
+	(label "I2C0_SCL"
+		(at 124.46 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28e72999-b7b3-4ba9-9bb8-7bbe4917e049")
+	)
+	(label "I2C0_SDA"
+		(at 124.46 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "293f7764-f8e4-4c6a-b833-ba364215a6f8")
 	)
 	(label "GPIO5"
 		(at 21.59 60.96 0)
@@ -6689,6 +7379,16 @@
 		)
 		(uuid "3911220d-b117-4874-8479-50c0285caa70")
 	)
+	(label "I2C0_SDA"
+		(at 36.83 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "430223e7-0cf5-4101-ad42-e05cc5def49a")
+	)
 	(label "GPIO23"
 		(at 90.17 43.18 180)
 		(effects
@@ -6708,6 +7408,26 @@
 			(justify right bottom)
 		)
 		(uuid "4a0fdeed-125b-4bfd-a541-1077e923f076")
+	)
+	(label "GP5"
+		(at 124.46 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a440198-813b-4759-b42f-44e4c6ca832b")
+	)
+	(label "GP0"
+		(at 124.46 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fe8218d-89b9-4cb9-97a4-f53cbcd34a8e")
 	)
 	(label "GPIO4{slash}GPCLK0"
 		(at 21.59 33.02 0)
@@ -6748,6 +7468,16 @@
 			(justify left bottom)
 		)
 		(uuid "591fa762-d154-4cf7-8db7-a10b610ff12a")
+	)
+	(label "I2C0_SCL"
+		(at 36.83 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "592db30f-520d-4cf5-a254-67b802c8e1e8")
 	)
 	(label "BLUE"
 		(at 259.08 85.09 180)
@@ -6879,6 +7609,26 @@
 		)
 		(uuid "746c0e80-50ac-4a24-8677-4e6d4ffa66ab")
 	)
+	(label "TRIG"
+		(at 194.31 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75568776-4840-4b32-ad80-2a7ac98808b9")
+	)
+	(label "GP3"
+		(at 124.46 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75a7c4f8-b45f-4e30-ba6b-2b48ce688b94")
+	)
 	(label "PH_R"
 		(at 74.93 139.7 0)
 		(effects
@@ -6919,6 +7669,16 @@
 		)
 		(uuid "831c710c-4564-4e13-951a-b3746ba43c78")
 	)
+	(label "GP7"
+		(at 124.46 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87271f3a-dffe-41f7-a664-362ee95e9e88")
+	)
 	(label "ENCB_R"
 		(at 124.46 106.68 0)
 		(effects
@@ -6928,6 +7688,16 @@
 			(justify left bottom)
 		)
 		(uuid "8a0a2361-77d2-46b2-a0bb-20fcc408cdd6")
+	)
+	(label "SW_PD"
+		(at 124.46 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ed59987-dbb3-4443-9175-632516fd29cd")
 	)
 	(label "GPIO2{slash}SDA1"
 		(at 21.59 27.94 0)
@@ -7039,16 +7809,6 @@
 		)
 		(uuid "a46d6ef9-bb48-47fb-afed-157a64315177")
 	)
-	(label "ECHO"
-		(at 124.46 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9dcc840-de99-44ab-a36a-1faf4e81c50a")
-	)
 	(label "GPIO12{slash}PWM0"
 		(at 90.17 63.5 180)
 		(effects
@@ -7078,6 +7838,16 @@
 			(justify right bottom)
 		)
 		(uuid "ae4e2d2d-64d4-49e0-96af-59ecce63318b")
+	)
+	(label "GP1"
+		(at 124.46 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af09b293-67f9-46ff-bc67-147af03316dc")
 	)
 	(label "ENCA_L"
 		(at 194.31 91.44 180)
@@ -7179,6 +7949,36 @@
 		)
 		(uuid "d282934e-33b1-4743-b0b7-27d8c55a965a")
 	)
+	(label "GP2"
+		(at 124.46 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd92bf5c-d9b9-49ab-9e1c-643290dc85f3")
+	)
+	(label "GP4"
+		(at 124.46 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e35ba1ee-f844-420d-ac2c-b586639f58f5")
+	)
+	(label "ECHO"
+		(at 194.31 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3933bc9-94f1-4684-bd63-af892b44787d")
+	)
 	(label "~{SLP}_R"
 		(at 74.93 144.78 0)
 		(effects
@@ -7189,15 +7989,15 @@
 		)
 		(uuid "e5314c74-4199-443f-b5bd-4e40806fd9b1")
 	)
-	(label "SW_PD"
-		(at 194.31 96.52 180)
+	(label "GP6"
+		(at 124.46 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "e61aeb14-08b3-484f-9c29-d2bd93ca26b7")
+		(uuid "e574c3ae-3723-4268-94e7-4054eb7ddd11")
 	)
 	(label "OUT2_L"
 		(at 71.12 161.29 180)
@@ -7937,6 +8737,73 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 49.53 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b60c05d-f2b5-48a5-b72b-0dbeaa032334")
+		(property "Reference" "#PWR025"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "773ae930-1838-4e64-aa9c-320910b7c90a")
+		)
+		(instances
+			(project "homer_thalamus"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10208,6 +11075,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 53.34 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b4fc72-05ec-450a-bf4b-c3c5db8b163d")
+		(property "Reference" "#PWR024"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3(OUT)"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01415058-bd1c-4099-80af-79397cc794a0")
+		)
+		(instances
+			(project "homer_thalamus"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 38.1 124.46 0)
 		(unit 1)
@@ -10339,6 +11272,174 @@
 			(project "homer_thalamus"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GY-521:GY-521")
+		(at 74.93 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff44169c-338e-4f54-9911-8c79812f1dee")
+		(property "Reference" "ACC1"
+			(at 82.55 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GY-521"
+			(at 82.55 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "GODREAM FORDREAM CO., LIMITED"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Triple Axis Accelerometer Gyro Breakout"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "GY-521"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "XCL"
+			(uuid "359993b7-40e7-43cd-befb-1a5278b685d4")
+		)
+		(pin "XDA"
+			(uuid "8082f7c5-4c05-42f6-987b-ed43eb8285f5")
+		)
+		(pin "INT"
+			(uuid "a30cb93e-5ee6-4464-ac9f-9a96dde1011c")
+		)
+		(pin "SDA"
+			(uuid "b3fef272-7742-4aa1-b511-be8f51887ae9")
+		)
+		(pin "AD0"
+			(uuid "4f2a3dca-7880-4204-8a6a-d53c5ca5f008")
+		)
+		(pin "SCL"
+			(uuid "f181f127-00cf-4e3a-bbf6-b3a4a95eeda0")
+		)
+		(pin "GND"
+			(uuid "c040f562-fe5e-4494-9e18-7c93f6ee0c67")
+		)
+		(pin "VCC"
+			(uuid "67ff5a5a-4fca-445c-9969-e6925e41a4b3")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "ACC1")
 					(unit 1)
 				)
 			)

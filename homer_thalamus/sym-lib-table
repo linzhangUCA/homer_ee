@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Pololu_DRV8874_Carrier")(type "KiCad")(uri "${KIPRJMOD}/Pololu_DRV8874_Carrier.kicad_sym")(options "")(descr ""))
   (lib (name "HC-SR04")(type "KiCad")(uri "${KIPRJMOD}/HC-SR04/HC-SR04.kicad_sym")(options "")(descr ""))
+  (lib (name "GY-521")(type "KiCad")(uri "${KIPRJMOD}/GY-521/GY-521.kicad_sym")(options "")(descr ""))
 )
