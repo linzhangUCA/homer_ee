@@ -9610,7 +9610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -10017,7 +10017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 242.57 81.788 90)
 			(effects
 				(font
@@ -10151,7 +10151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 127 176.53 0)
 			(effects
 				(font
@@ -10233,7 +10233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DRV8874_Carrier:DRV8874_Carrier"
 			(at 39.37 161.29 0)
 			(effects
 				(font
@@ -10336,7 +10336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 226.06 121.412 90)
 			(effects
 				(font
@@ -10470,7 +10470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 88.9 176.53 0)
 			(effects
 				(font
@@ -10552,7 +10552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 236.982 43.18 90)
 			(effects
 				(font
@@ -10619,7 +10619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 242.57 86.868 90)
 			(effects
 				(font
@@ -10688,7 +10688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 229.5652 46.99 0)
 			(effects
 				(font
@@ -10892,7 +10892,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 205.74 35.56 0)
 			(effects
 				(font
@@ -11184,7 +11184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 242.57 76.708 90)
 			(effects
 				(font
@@ -11521,7 +11521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 233.68 30.48 0)
 			(effects
 				(font
@@ -11589,7 +11589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 166.37 24.13 0)
 			(effects
 				(font
@@ -11846,7 +11846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 235.458 133.35 90)
 			(effects
 				(font
@@ -12281,7 +12281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DRV8874_Carrier:DRV8874_Carrier"
 			(at 96.52 139.7 0)
 			(effects
 				(font
@@ -12453,7 +12453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 38.1 124.46 0)
 			(effects
 				(font
@@ -12590,7 +12590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GY-521:GY-521"
 			(at 74.93 102.87 0)
 			(effects
 				(font
