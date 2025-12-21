@@ -9138,7 +9138,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "94ef0355-854e-4ea5-aa4b-a2f0b0a28af8")
-		(at 74.473 97.8918 90)
+		(at 75.06 97.46 90)
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J4"
@@ -9579,15 +9579,16 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e315c46c-9fcc-416b-9719-b544fcebff18")
-		(at 76.85 47.01 90)
+		(at 75.06 46.54 90)
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J3"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
-			(uuid "c26eb845-cdf6-4401-92cc-924791499196")
+			(uuid "481f934c-8d5d-4b98-8e57-020f6cfdcd74")
 			(effects
 				(font
 					(size 1 1)
@@ -9598,7 +9599,7 @@
 		(property "Value" "Right_Motor_Conn"
 			(at 0 15.08 90)
 			(layer "F.Fab")
-			(uuid "8df235af-73cc-426b-b9c4-3545b28b1c10")
+			(uuid "599119c2-9b6b-4121-92ae-e934bb1ca77e")
 			(effects
 				(font
 					(size 1 1)
@@ -9610,7 +9611,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf0910ce-d9af-44d1-9bf2-886eb0b53d5e")
+			(uuid "bfc41307-b524-467d-b0cf-42a5c526d2f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,7 +9623,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "596b4261-1845-40e4-899b-642dd2b935bd")
+			(uuid "0998fcc5-3cd5-4c28-bc5e-751370694ee5")
 			(effects
 				(font
 					(size 1.27 1.27)
