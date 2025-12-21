@@ -670,11 +670,11 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "050bd9c5-8960-4a87-9918-894903a0aa36")
-		(at 96.5818 97.0028 180)
+		(at 96.1754 96.9266 180)
 		(descr "JST XH series connector, B2B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical boss")
 		(property "Reference" "J2"
-			(at 1.25 -3.55 0)
+			(at 6.528 4.032 0)
 			(layer "F.SilkS")
 			(uuid "d466d1fb-7196-4859-a1e6-69aa68c33954")
 			(effects
@@ -6286,12 +6286,12 @@
 	(footprint "DRV8874_Carrier:DRV8874_Carrier"
 		(layer "F.Cu")
 		(uuid "6253dd3f-a163-4ecf-acd9-35d704d81902")
-		(at 109.1948 69.52 180)
+		(at 109.64 69.46 180)
 		(property "Reference" "U1"
 			(at 13.208 18.796 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4ec0689c-6ba8-44dd-b2b4-b8607d75d9e6")
+			(uuid "ce361af0-3469-498d-9f17-77f4e8b31b9a")
 			(effects
 				(font
 					(size 1 1)
@@ -6303,7 +6303,7 @@
 			(at 8.2146 9.8054 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "5b3034af-bbed-477f-824f-49e73018c37e")
+			(uuid "204a94e5-a29e-4885-9e60-f16cd0c14d99")
 			(effects
 				(font
 					(size 1 1)
@@ -6316,7 +6316,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12d44568-a32d-4c79-a214-6095d3f9fa81")
+			(uuid "ea4a4c99-ae9f-44f5-853b-5a64c1659457")
 			(effects
 				(font
 					(size 1 1)
@@ -6329,7 +6329,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4b41d99-1114-4c34-83c9-1dc015109966")
+			(uuid "ec9e738c-f577-4cff-80fa-8b7981ae7e59")
 			(effects
 				(font
 					(size 1 1)
@@ -6771,7 +6771,7 @@
 			)
 			(polygon
 				(pts
-					(xy 109.1802 69.5146) (xy 93.9802 69.5146) (xy 93.9802 51.7146) (xy 109.1802 51.7146)
+					(xy 109.6254 69.4546) (xy 94.4254 69.4546) (xy 94.4254 51.6546) (xy 109.6254 51.6546)
 				)
 			)
 		)
@@ -6803,7 +6803,7 @@
 			)
 			(polygon
 				(pts
-					(xy 109.1802 69.5146) (xy 93.9802 69.5146) (xy 93.9802 51.7146) (xy 109.1802 51.7146)
+					(xy 109.6254 69.4546) (xy 94.4254 69.4546) (xy 94.4254 51.6546) (xy 109.6254 51.6546)
 				)
 			)
 		)
@@ -9879,7 +9879,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "e5c43cc9-a576-4d8d-b072-d46a35279c42")
-		(at 130.052 58.598)
+		(at 130.11 58.6996)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor")
 		(property "Reference" "C1"
@@ -9894,8 +9894,8 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 2.5 2.5 0)
-			(layer "F.Fab")
+			(at 2.5108 0.0346 0)
+			(layer "F.SilkS")
 			(uuid "02b8e88b-a670-4be9-938c-b0b98beeaeea")
 			(effects
 				(font
@@ -10062,7 +10062,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f0321f15-9dfd-4369-b688-66a70178b0bd")
-		(at 140.259 56.312 90)
+		(at 140.27 55.49 90)
 		(descr "Through hole straight pin header, 1x10, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x10 2.54mm single row")
 		(property "Reference" "J5"
@@ -10409,7 +10409,7 @@
 		(property "Reference" "J1"
 			(at 2.5 0 0)
 			(layer "B.SilkS")
-			(uuid "c1c36095-c0ed-4de6-81b0-3769f6f0a629")
+			(uuid "62c4efe1-56c9-4471-bee8-2d9fc13436e6")
 			(effects
 				(font
 					(size 1 1)
@@ -10421,7 +10421,7 @@
 		(property "Value" "GPIO"
 			(at -5.77 -24.13 0)
 			(layer "B.Fab")
-			(uuid "1b44cf85-acf6-4af6-b424-6320e76817a5")
+			(uuid "20d1d79e-4111-4b45-8864-592aaaf39ddc")
 			(effects
 				(font
 					(size 1 1)
@@ -10434,7 +10434,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b0deb3a-6585-4f0a-b8d9-518c37154df3")
+			(uuid "a652a3af-a20a-4075-8b58-6a29cefc3055")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +10446,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86ec450e-a7b3-496b-b5bd-36ea5c2df261")
+			(uuid "7e6f9f82-9aed-41c1-98c2-514e115a074d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11314,10 +11314,6 @@
 				(xy 164 56.14) (xy 159 56.14) (xy 159 51.14) (xy 164 51.14)
 			)
 		)
-	)
-	(group "MDs"
-		(uuid "1d40fd45-5c4f-4090-a1d1-2c7d1685132d")
-		(members "6253dd3f-a163-4ecf-acd9-35d704d81902" "75fd1a30-d812-4647-95b3-fe729d1a6444")
 	)
 	(group ""
 		(uuid "5cc7d272-7a6f-4256-bca1-6dc4afafeea5")
