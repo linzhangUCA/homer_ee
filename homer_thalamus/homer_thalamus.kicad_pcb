@@ -228,7 +228,7 @@
 		(uuid "006ebcf4-4cd4-49c8-9285-ed3d34cb6c1c")
 		(at 73.81 72 -90)
 		(property "Reference" "U3"
-			(at 6.3 0.21 180)
+			(at 6.3 0.21 0)
 			(layer "F.SilkS")
 			(uuid "4405cf95-b30d-470b-a94d-85b600bad36d")
 			(effects
@@ -663,6 +663,17 @@
 			(uuid "2ff91606-bb69-44b6-8bf6-15d95747eaed")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/HC-SR04/HC-SR04.STEP"
+			(offset
+				(xyz 0 -10 10)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
@@ -2835,7 +2846,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 		(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/RaspberryPi_Pico.step"
@@ -4392,6 +4403,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/DRV8874_Carrier.pretty/drv887x-single-brushed-dc-motor-driver-carrier.step"
+			(offset
+				(xyz 0 -17.75 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -5791,6 +5813,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/DRV8874_Carrier.pretty/drv887x-single-brushed-dc-motor-driver-carrier.step"
+			(offset
+				(xyz 0 -17.75 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
 		(locked yes)
