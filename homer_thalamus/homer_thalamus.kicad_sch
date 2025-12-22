@@ -3407,33 +3407,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GY-521:GY-521"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "GY-521:HiLetGo-GY-521"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "ACC"
-				(at -9.652 11.938 0)
+			(property "Reference" "U"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "GY-521"
-				(at 4.572 -11.938 0)
+			(property "Value" "HiLetGo-GY-521"
+				(at 14.732 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right top)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3442,7 +3437,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3451,7 +3446,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3459,349 +3454,22 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "GODREAM FORDREAM CO., LIMITED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "HiLetGo-GY-521_0_1"
+				(rectangle
+					(start -6.35 8.89)
+					(end 6.35 -8.89)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(justify bottom)
-					(hide yes)
+					(fill
+						(type none)
+					)
 				)
 			)
-			(property "Description_1" "Triple Axis Accelerometer Gyro Breakout"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "Package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "GY-521"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "GY-521_0_0"
-				(polyline
-					(pts
-						(xy -11.43 -9.43) (xy -11.43 9.43)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -9.43 11.43) (xy 4.35 11.43)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -11.43 9.43)
-					(mid -10.8442 10.8442)
-					(end -9.43 11.43)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -9.43 -11.43)
-					(mid -10.8442 -10.8442)
-					(end -11.43 -9.43)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -3.175) (xy -3.175 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -3.175) (xy -1.27 -3.175)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -3.175 -3.175)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 4.35 11.43)
-					(mid 5.7642 10.8442)
-					(end 6.35 9.43)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.35 -9.43)
-					(mid 5.7642 -10.8442)
-					(end 4.35 -11.43)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.35 -11.43) (xy -9.43 -11.43)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 9.43) (xy 6.35 -9.43)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "MPU"
-					(at 0 -10.16 0)
-					(effects
-						(font
-							(size 2 2)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin power_in line
-					(at -16.51 8.89 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 6.35 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
+			(symbol "HiLetGo-GY-521_1_0"
 				(pin bidirectional line
-					(at -16.51 3.81 0)
+					(at -11.43 6.35 0)
 					(length 5.08)
 					(name "SCL"
 						(effects
@@ -3810,7 +3478,7 @@
 							)
 						)
 					)
-					(number "SCL"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3819,7 +3487,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -16.51 1.27 0)
+					(at -11.43 3.81 0)
 					(length 5.08)
 					(name "SDA"
 						(effects
@@ -3828,7 +3496,7 @@
 							)
 						)
 					)
-					(number "SDA"
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3837,7 +3505,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -16.51 -1.27 0)
+					(at -11.43 1.27 0)
 					(length 5.08)
 					(name "XDA"
 						(effects
@@ -3846,7 +3514,7 @@
 							)
 						)
 					)
-					(number "XDA"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3855,7 +3523,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -16.51 -3.81 0)
+					(at -11.43 -1.27 0)
 					(length 5.08)
 					(name "XCL"
 						(effects
@@ -3864,7 +3532,7 @@
 							)
 						)
 					)
-					(number "XCL"
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3873,16 +3541,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -16.51 -6.35 0)
+					(at -11.43 -3.81 0)
 					(length 5.08)
-					(name "AD0"
+					(name "ADO"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AD0"
+					(number "7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3891,7 +3559,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -16.51 -8.89 0)
+					(at -11.43 -6.35 0)
 					(length 5.08)
 					(name "INT"
 						(effects
@@ -3900,7 +3568,43 @@
 							)
 						)
 					)
-					(number "INT"
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 13.97 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -13.97 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6229,7 +5933,7 @@
 		(uuid "0410cbe2-4536-4169-8930-49dbb62dc42d")
 	)
 	(no_connect
-		(at 58.42 111.76)
+		(at 68.58 111.76)
 		(uuid "0dc183ff-539f-4abb-9869-45f424e66bd3")
 	)
 	(no_connect
@@ -6237,7 +5941,7 @@
 		(uuid "12309bf5-194a-446e-9bd8-ab8752dd609a")
 	)
 	(no_connect
-		(at 58.42 109.22)
+		(at 68.58 109.22)
 		(uuid "262bd925-d1cf-467b-bb9c-9e1da545db4f")
 	)
 	(no_connect
@@ -6253,7 +5957,7 @@
 		(uuid "3d82f079-70be-4df2-aee8-aa3b8c5bd2b2")
 	)
 	(no_connect
-		(at 58.42 104.14)
+		(at 68.58 104.14)
 		(uuid "43550534-a106-4556-9458-301935def995")
 	)
 	(no_connect
@@ -6277,7 +5981,7 @@
 		(uuid "bd6e96fd-c4db-44ff-9bb1-b309fafab0e0")
 	)
 	(no_connect
-		(at 58.42 106.68)
+		(at 68.58 106.68)
 		(uuid "c8caeef2-d032-41a6-9c20-463cba139cb0")
 	)
 	(no_connect
@@ -6654,16 +6358,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 96.52) (xy 49.53 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34026027-bbc1-413c-838c-c2ea727867f4")
-	)
-	(wire
-		(pts
 			(xy 63.5 53.34) (xy 90.17 53.34)
 		)
 		(stroke
@@ -6701,16 +6395,6 @@
 			(type solid)
 		)
 		(uuid "37ae508e-6121-46a7-8162-5c727675dd10")
-	)
-	(wire
-		(pts
-			(xy 49.53 96.52) (xy 49.53 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "395b58b9-c301-431d-8b07-54439b4d46e0")
 	)
 	(wire
 		(pts
@@ -6784,7 +6468,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 99.06) (xy 58.42 99.06)
+			(xy 46.99 99.06) (xy 68.58 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6901,6 +6585,16 @@
 			(type solid)
 		)
 		(uuid "55d9c53c-6409-4360-8797-b4f7b28c4137")
+	)
+	(wire
+		(pts
+			(xy 80.01 119.38) (xy 80.01 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5629fb14-7665-4604-9cb1-35cfd535430e")
 	)
 	(wire
 		(pts
@@ -7394,7 +7088,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 101.6) (xy 58.42 101.6)
+			(xy 46.99 101.6) (xy 68.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7441,6 +7135,16 @@
 			(type default)
 		)
 		(uuid "9e93b14e-04bd-44db-9223-e5edd91ca015")
+	)
+	(wire
+		(pts
+			(xy 80.01 88.9) (xy 80.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffa9421-b2a2-4788-9ba3-f66904c6402e")
 	)
 	(wire
 		(pts
@@ -7531,16 +7235,6 @@
 			(type default)
 		)
 		(uuid "af7e6105-5892-47d9-acc3-8ddfee65a596")
-	)
-	(wire
-		(pts
-			(xy 53.34 93.98) (xy 58.42 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "affaa8dd-f1f7-4ef6-a80d-db4f5d93fa68")
 	)
 	(wire
 		(pts
@@ -7994,16 +7688,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 91.44) (xy 53.34 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec2668b9-ae09-492f-90eb-af9a8304eb97")
-	)
-	(wire
-		(pts
 			(xy 83.82 153.67) (xy 100.33 153.67)
 		)
 		(stroke
@@ -8293,7 +7977,7 @@
 		(uuid "3911220d-b117-4874-8479-50c0285caa70")
 	)
 	(label "I2C0_SDA"
-		(at 36.83 101.6 0)
+		(at 46.99 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8393,7 +8077,7 @@
 		(uuid "591fa762-d154-4cf7-8db7-a10b610ff12a")
 	)
 	(label "I2C0_SCL"
-		(at 36.83 99.06 0)
+		(at 46.99 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9728,7 +9412,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 49.53 115.57 0)
+		(at 80.01 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9737,7 +9421,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b60c05d-f2b5-48a5-b72b-0dbeaa032334")
 		(property "Reference" "#PWR025"
-			(at 49.53 121.92 0)
+			(at 80.01 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9746,7 +9430,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 120.65 0)
+			(at 80.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9754,7 +9438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 115.57 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,7 +9447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 115.57 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9772,7 +9456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 115.57 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11093,6 +10777,94 @@
 		)
 	)
 	(symbol
+		(lib_id "GY-521:HiLetGo-GY-521")
+		(at 80.01 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8724c877-0208-4b17-9a63-18ff7a298dca")
+		(property "Reference" "U4"
+			(at 87.63 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HiLetGo-GY-521"
+			(at 87.63 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GY-521:HiLetGo-GY-521"
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76e75fb2-ec43-4724-8061-b1d3aee1650a")
+		)
+		(pin "8"
+			(uuid "83395e32-414e-4149-9b14-f18666ed28f9")
+		)
+		(pin "1"
+			(uuid "a1e4fa4f-13c2-48da-bfac-a1903fd63746")
+		)
+		(pin "6"
+			(uuid "eff8bf09-51a2-4e4e-88ee-a92cbdd4e8ac")
+		)
+		(pin "4"
+			(uuid "4f7ff00d-a922-4c31-86f2-739c31862dd2")
+		)
+		(pin "3"
+			(uuid "a4845561-c0e5-4e20-9a10-e444e2c5290a")
+		)
+		(pin "5"
+			(uuid "40d584fe-d814-4b8c-ab93-d4e2bece95da")
+		)
+		(pin "7"
+			(uuid "00218e76-a4bf-470f-b018-41a9016e9977")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 102.87 157.48 0)
@@ -12361,7 +12133,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 53.34 91.44 0)
+		(at 80.01 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12370,7 +12142,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9b4fc72-05ec-450a-bf4b-c3c5db8b163d")
 		(property "Reference" "#PWR024"
-			(at 53.34 95.25 0)
+			(at 80.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12151,7 @@
 			)
 		)
 		(property "Value" "3V3(OUT)"
-			(at 53.34 86.36 0)
+			(at 80.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,7 +12159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 91.44 0)
+			(at 80.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12396,7 +12168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 91.44 0)
+			(at 80.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,7 +12177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 53.34 91.44 0)
+			(at 80.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12557,174 +12329,6 @@
 			(project "homer_thalamus"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GY-521:GY-521")
-		(at 74.93 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff44169c-338e-4f54-9911-8c79812f1dee")
-		(property "Reference" "ACC1"
-			(at 82.55 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GY-521"
-			(at 82.55 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GY-521:GY-521"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "GODREAM FORDREAM CO., LIMITED"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Triple Axis Accelerometer Gyro Breakout"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=snap"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "GY-521"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/GY-521/GODREAM+FORDREAM+CO.%252C+LIMITED/view-part/?ref=eda"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "XCL"
-			(uuid "359993b7-40e7-43cd-befb-1a5278b685d4")
-		)
-		(pin "XDA"
-			(uuid "8082f7c5-4c05-42f6-987b-ed43eb8285f5")
-		)
-		(pin "INT"
-			(uuid "a30cb93e-5ee6-4464-ac9f-9a96dde1011c")
-		)
-		(pin "SDA"
-			(uuid "b3fef272-7742-4aa1-b511-be8f51887ae9")
-		)
-		(pin "AD0"
-			(uuid "4f2a3dca-7880-4204-8a6a-d53c5ca5f008")
-		)
-		(pin "SCL"
-			(uuid "f181f127-00cf-4e3a-bbf6-b3a4a95eeda0")
-		)
-		(pin "GND"
-			(uuid "c040f562-fe5e-4494-9e18-7c93f6ee0c67")
-		)
-		(pin "VCC"
-			(uuid "67ff5a5a-4fca-445c-9969-e6925e41a4b3")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "ACC1")
 					(unit 1)
 				)
 			)
