@@ -3,4 +3,5 @@
   (lib (name "DRV8874_Carrier")(type "KiCad")(uri "${KIPRJMOD}/DRV8874_Carrier.pretty")(options "")(descr ""))
   (lib (name "GY-521")(type "KiCad")(uri "${KIPRJMOD}/GY-521")(options "")(descr ""))
   (lib (name "HC-SR04")(type "KiCad")(uri "${KIPRJMOD}/HC-SR04")(options "")(descr ""))
+  (lib (name "RaspberryPi_Pico_THT")(type "KiCad")(uri "${KIPRJMOD}/Raspberry_Pi_Pico/RaspberryPi_Pico_THT.pretty")(options "")(descr ""))
 )
