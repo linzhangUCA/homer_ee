@@ -682,7 +682,7 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J2"
-			(at -3.9 -2.3 0)
+			(at -3.9 -2.3 90)
 			(layer "F.SilkS")
 			(uuid "a93978a9-210f-4f8d-bf49-79e969d4a955")
 			(effects
@@ -5041,7 +5041,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_RKGB"
+		(property "Value" "BGKR"
 			(at 3.211 3.725 0)
 			(layer "F.SilkS")
 			(uuid "5e3719d3-0efe-4449-b738-7a80aa536eb9")
@@ -6221,11 +6221,11 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Value" "HiLetGo-GY-521"
+		(property "Value" "GY-521"
 			(at -1.21 -10.7 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -9391,6 +9391,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "MOT_POW"
+		(at 71.3 88.6 90)
+		(layer "F.SilkS")
+		(uuid "624a7bfd-8472-4835-8fd2-2f38ce2507f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "GND"
 		(at 87.6 48 270)
 		(layer "F.SilkS")
@@ -9520,8 +9531,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+"
-		(at 77 91.8 0)
+	(gr_text "+7.4V"
+		(at 76.8 92.2 0)
 		(layer "F.SilkS")
 		(uuid "bce97b6b-2992-48c7-abf3-5033ae8507fc")
 		(effects
@@ -9559,7 +9570,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 74.2 91.8 0)
+		(at 74.2 92.2 0)
 		(layer "F.SilkS")
 		(uuid "d0352c47-0599-4fd5-8fd0-b6b25d5ac4af")
 		(effects
@@ -9622,6 +9633,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "USB"
+		(at 162.7 70.4 270)
+		(layer "F.SilkS")
+		(uuid "f3e89bd5-344c-4a36-b066-db7db092924b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 157.5 57.933333 270)
 		(layer "F.SilkS")
@@ -9633,6 +9656,54 @@
 				(bold yes)
 			)
 			(justify right bottom)
+		)
+	)
+	(gr_text "ECHO"
+		(at 75 73.9 0)
+		(layer "B.SilkS")
+		(uuid "0e751223-7549-4182-a9ed-be62d4ba7aeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 75 76.4 0)
+		(layer "B.SilkS")
+		(uuid "29554221-6961-4429-93af-715086dfa0a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "+5V"
+		(at 75 68.8 0)
+		(layer "B.SilkS")
+		(uuid "9fba4538-920c-4ac3-9886-8fb235f3aad5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "TRIG"
+		(at 75 71.4 0)
+		(layer "B.SilkS")
+		(uuid "ae5d72c2-d43f-4eef-840b-c7859cbbce11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom mirror)
 		)
 	)
 	(segment
